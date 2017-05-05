@@ -34,5 +34,30 @@ text5.collocations()
 print("Consider the following Python expression: len(set(text4)). State the purpose of this expression. Describe the two steps involved in performing this computation.")
 print("It gets the vocabulary for the text4 and then return its len")
 
+print("Question 9A")
+my_string = 'My String'
+my_string
+print(my_string)
+
+
+print("Question 9B")
+print(my_string + my_string)
+print(my_string*3)
+
+
+print("Question 10A")
+my_sent = ["My", "sent"]
+print(' '.join(my_sent))
+print(' '.join(my_sent).split())
+
+
+print("Questin 11")
+phrase1 = "hello"
+phrase2 = "World"
+print((len(phrase1+phrase2)))
+print(len(phrase1)+len(phrase2))
+
+print("Question 12")
+print("Both are relevant but 2nd one is more suitable as it index the whole word")
 
 
